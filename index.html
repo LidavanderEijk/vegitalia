@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <title>VegItalia</title>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif">
+  <header>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1MzYlqeaivZAQnVE-FBsdYQ76jL2OROfjkw&s"
+      id="header-img"
+    />
+    <h1 style="color: green">VegItalia</h1>
+    <nav></nav>
+  </header>
+  <main>
+    <section>
+      <h2>Menu</h2>
+      <article>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLboZYTkvd02Fye53r59QyQIvioYcLgxRdPg&s"
+        />
+        <h3>Baba Ganoush</h3>
+        <p>
+          Taste the wonderful flavours of smoked aubergine with sesame tahini.
+          <em>7,00</em>
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUMCS2ixSBNRMM2SbpbycgGJTnL1aG-bIaQg&s"
+        />
+        <h3>Harira soup</h3>
+        <p>
+          A maroccan classic soup of lentils, carrot and tomatoes.
+          <em>7,00</em>
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2PEQkxoUgzN5Otl2-1s6UR0RFyZVHA-q_BPuHNqfzBEH1KrHHAw_eVvSllak0NPHH38"
+        />
+        <h3>Falafel</h3>
+        <p>
+          Our favourite vegetarian snack: chickpea falafel. Served with salad
+          and pita bread. <em>9,00</em>
+        </p>
+      </article>
+    </section>
+    <section>
+      <h2>Place Your Order</h2>
+      <form>
+        <h3>Personal information</h3>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="address">Street Adress: </label>
+        <input type="text" id="adress" name="adress" required /> <br /><br />
+        <label for="city">City: </label>
+        <input type="text" id="city" name="city" required /><br /><br />
+        <label for="zip">Zip or Postal Code: </label>
+        <input type="text" id="zip" name="zip" /><br /><br />
+        <label for="telephone">Telephone number: </label>
+        <input
+          type="tel"
+          id="telephone"
+          name="telephone"
+          required
+        /><br /><br />
+        <h3>Your order</h3>
+        <label for="menuitem1">Baba Ganoush: </label>
+        <input
+          type="number"
+          id="menuitem1"
+          name="menuitem1"
+          value="babaganoush"
+          min="0"
+        /><br /><br />
+        <input type="radio" id="option1" name="spicy" value="extra spicy" />
+        <label for="option1">Extra spicy</label><br /><br />
+        <input type="radio" id="option2" name="spicy" value="normal" />
+        <label for="option2">Normal</label><br /><br />
+        <input type="radio" id="option3" name="spicy" value="mild" />
+        <label for="option3">Mild</label><br /><br />
+        <label for="menuitem2">Harira soup: </label>
+        <input
+          type="number"
+          id="menuitem2"
+          name="menuitem2"
+          value="harira"
+          min="0"
+        /><br /><br />
+        <input type="checkbox" name="add-on1" value="Red pepper" />
+        <label for="add-on1">Extra red pepper</label> <br /><br />
+        <input type="checkbox" name="add-on2" value="Pita bread" />
+        <label for="add-on2">Pita bread</label> <br />
+        <br />
+        <input type="checkbox" name="add-on3" value="yoghurt" />
+        <label for="add-on3">Yoghurt</label> <br /><br />
+        <label for="menuitem3">Falafel: </label>
+        <input
+          type="number"
+          id="menuitem3"
+          name="menuitem3"
+          value="falafel"
+          min="0"
+        /><br /><br />
+        <label for="comments">Special requests: </label> <br /><br />
+        <textarea id="comments" cols="50" rows="4"> </textarea><br /><br />
+        <label for="submit">Enjoy your meal!</label> <br /><br />
+        <input type="submit" value="Go To Checkout!" />
+        <br /><br />
+      </form>
+    </section>
+  </main>
+
+  <footer style="background-color: green; border: 10px dotted darkolivegreen">
+    <p style="color: whitesmoke">Made with love by Lisetdaan</p>
+  </footer>
+</body>
